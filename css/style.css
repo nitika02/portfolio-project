@@ -737,7 +737,7 @@ h3.my-profession {
     z-index: 10000;
     transition: 0.3s linear;
 }
-.cursor2.boom {
+.cursor-2.boom {
     display: none;
 }
 
@@ -776,6 +776,9 @@ h3.my-profession {
         flex: 0 0 95%;
         max-width: 95%;
     }
+    .cursor-1, .cursor-2 {
+        display: none;
+    }
     
 }
 @media (max-width: 991px) {
@@ -804,6 +807,9 @@ h3.my-profession {
     .about .about-content .personal-info {
         flex: 0 0 100%;
         max-width: 100%;
+    }
+    .cursor-1, .cursor-2 {
+        display: none;
     }
 }
 
